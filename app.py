@@ -8,7 +8,7 @@ def home():
 
 @app.route("/sobre")
 def sobre():
-    return "Projeto desenvolvido na disciplina de Integração e Entrega Contínua"
+    return "Sistema desenvolvido em Flask para estudo de CI/CD"
 
 if __name__ == "__main__":
     app.run(debug=True)
