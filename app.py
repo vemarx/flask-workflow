@@ -30,5 +30,9 @@ def cadastro_livro():
 def cadastro_autor():
     return "Página de cadastro de autores"
 
+@app.route("/relatorios")
+def relatorios():
+    return "Página de relatórios do sistema"
+
 if __name__ == "__main__":
     app.run(debug=True)
